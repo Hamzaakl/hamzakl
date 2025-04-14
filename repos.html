@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Repolarım - Hamza Akıllı</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <a href="index.html" class="logo">Hamza Akıllı</a>
+        <ul class="nav-links">
+          <li><a href="index.html">Ana Sayfa</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="repos.html">Repolarım</a></li>
+          <li><a href="contact.html">İletişim</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="repos-header">
+      <div class="container">
+        <h1>GitHub Repolarım</h1>
+        <p>
+          Açık kaynak projelerim ve katkıda bulunduğum projeler TEST TEST TEST
+        </p>
+      </div>
+    </section>
+
+    <section class="repos-grid">
+      <div class="container">
+        <div class="repo-filters">
+          <button class="filter-btn active" data-filter="all">Tümü</button>
+          <button class="filter-btn" data-filter="security">Güvenlik</button>
+          <button class="filter-btn" data-filter="web">Web</button>
+          <button class="filter-btn" data-filter="tools">Araçlar</button>
+        </div>
+
+        <div class="repos-container">
+          <div class="repo-card" data-category="security">
+            <div class="repo-header">
+              <h3>Penetrasyon Testi Aracı</h3>
+              <span class="repo-stars">
+                <i class="fas fa-star"></i>
+                150
+              </span>
+            </div>
+            <p class="repo-description">
+              Web uygulamaları için geliştirilmiş penetrasyon testi aracı. SQL
+              injection, XSS ve diğer güvenlik açıklarını tespit etmek için
+              kullanılır.
+            </p>
+            <div class="repo-footer">
+              <span class="repo-language">Python</span>
+              <a href="#" class="btn">GitHub'da Gör</a>
+            </div>
+          </div>
+
+          <div class="repo-card" data-category="web">
+            <div class="repo-header">
+              <h3>Güvenli Web Uygulaması</h3>
+              <span class="repo-stars">
+                <i class="fas fa-star"></i>
+                89
+              </span>
+            </div>
+            <p class="repo-description">
+              Modern web güvenliği standartlarına uygun geliştirilmiş örnek web
+              uygulaması.
+            </p>
+            <div class="repo-footer">
+              <span class="repo-language">JavaScript</span>
+              <a href="#" class="btn">GitHub'da Gör</a>
+            </div>
+          </div>
+
+          <div class="repo-card" data-category="tools">
+            <div class="repo-header">
+              <h3>Network Analiz Aracı</h3>
+              <span class="repo-stars">
+                <i class="fas fa-star"></i>
+                45
+              </span>
+            </div>
+            <p class="repo-description">
+              Ağ trafiğini analiz etmek ve güvenlik açıklarını tespit etmek için
+              geliştirilmiş araç.
+            </p>
+            <div class="repo-footer">
+              <span class="repo-language">Python</span>
+              <a href="#" class="btn">GitHub'da Gör</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <p>&copy; 2024 Hamza Akıllı.</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

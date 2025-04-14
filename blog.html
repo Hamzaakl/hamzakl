@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog | Hamza Akıllı</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <meta
+      name="description"
+      content="Siber güvenlik, yazılım geliştirme ve teknoloji hakkında blog yazıları"
+    />
+    <meta
+      name="keywords"
+      content="blog, siber güvenlik, yazılım, teknoloji, makaleler"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <a href="index.html" class="logo">Hamza Akıllı</a>
+        <ul class="nav-links">
+          <li><a href="index.html">Ana Sayfa</a></li>
+          <li><a href="blog.html" class="active">Blog</a></li>
+          <li><a href="repos.html">Projeler</a></li>
+          <li><a href="contact.html">İletişim</a></li>
+        </ul>
+        <button class="mobile-menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+
+    <section class="blog-header">
+      <div class="container">
+        <h1 class="section-title">Blog</h1>
+        <p class="hero-description">
+          Siber güvenlik, yazılım geliştirme ve teknoloji hakkında güncel
+          yazılarım
+        </p>
+      </div>
+    </section>
+
+    <section class="blog-filters">
+      <div class="container">
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-filter="all">Tümü</button>
+          <button class="filter-btn" data-filter="security">
+            Siber Güvenlik
+          </button>
+          <button class="filter-btn" data-filter="development">
+            Yazılım Geliştirme
+          </button>
+          <button class="filter-btn" data-filter="technology">Teknoloji</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="blog-posts">
+      <div class="container">
+        <div class="blog-grid">
+          <article class="blog-card" data-category="security">
+            <div class="blog-image">
+              <img
+                src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b"
+                alt="Siber Güvenlik"
+              />
+            </div>
+            <div class="blog-content">
+              <span class="blog-category">TEST</span>
+              <span class="blog-date">15 Mart 2024</span>
+              <h2>
+                <a href="blog-post.html">
+                  Siber Güvenlikte Yapay Zeka Kullanımı ve Geleceği
+                </a>
+              </h2>
+              <p>
+                Yapay zeka teknolojilerinin siber güvenlik alanındaki kullanımı
+                ve gelecekteki potansiyeli hakkında detaylı bir analiz.
+              </p>
+              <div class="blog-meta">
+                <span class="reading-time">5 dakika okuma</span>
+                <a href="blog-post.html" class="read-more">
+                  Devamını Oku
+                  <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="blog-card" data-category="development">
+            <div class="blog-image">
+              <img
+                src="https://images.unsplash.com/photo-1555066931-4365d1bab7d0"
+                alt="Yazılım Geliştirme"
+              />
+            </div>
+            <div class="blog-content">
+              <span class="blog-category">TEST</span>
+              <span class="blog-date">10 Mart 2024</span>
+              <h2>
+                <a href="#">
+                  Modern Web Uygulamalarında Güvenlik Best Practices
+                </a>
+              </h2>
+              <p>
+                Modern web uygulamalarında güvenliği artırmak için uygulanması
+                gereken en iyi pratikler ve öneriler.
+              </p>
+              <div class="blog-meta">
+                <span class="reading-time">7 dakika okuma</span>
+                <a href="#" class="read-more">
+                  Devamını Oku
+                  <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="blog-card" data-category="technology">
+            <div class="blog-image">
+              <img
+                src="https://images.unsplash.com/photo-1518770660439-4636190af475"
+                alt="Teknoloji"
+              />
+            </div>
+            <div class="blog-content">
+              <span class="blog-category">TEST</span>
+              <span class="blog-date">5 Mart 2024</span>
+              <h2>
+                <a href="#">2024'te Öne Çıkacak Teknoloji Trendleri</a>
+              </h2>
+              <p>
+                2024 yılında siber güvenlik ve yazılım geliştirme alanlarında
+                öne çıkması beklenen teknoloji trendleri.
+              </p>
+              <div class="blog-meta">
+                <span class="reading-time">6 dakika okuma</span>
+                <a href="#" class="read-more">
+                  Devamını Oku
+                  <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-info">
+            <p>&copy; 2024 Hamza Akıllı.</p>
+            <p class="footer-location">Şanlıurfa, Türkiye</p>
+          </div>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="LinkedIn">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="Twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
